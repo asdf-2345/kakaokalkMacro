@@ -1,0 +1,6 @@
+F:\카톡도배기\obj\Debug\카톡도배기.csprojResolveAssemblyReference.cache
+F:\카톡도배기\bin\Debug\카톡도배기.exe.config
+F:\카톡도배기\bin\Debug\카톡도배기.exe
+F:\카톡도배기\bin\Debug\카톡도배기.pdb
+F:\카톡도배기\obj\Debug\카톡도배기.exe
+F:\카톡도배기\obj\Debug\카톡도배기.pdb
