@@ -83,10 +83,10 @@ namespace 카톡1
 		}
 		
 		public static void macro(int num, string str, string ChatRoomName){
+			int i = FindWindow(null, ChatRoomName);
+			int a = FindWindowEx(i, 0, "RichEdit20W", null);
 			for(int c = 0; c < num; c++){
 				Console.WriteLine((c + 1) + "번 반복");
-				int i = FindWindow(null, ChatRoomName);
-				int a = FindWindowEx(i, 0, "RichEdit20W", null);
 				SendMessage(a, 0x000c, 0, str);
     			PostMessage(a, 0x0100, 0xD, 0x1C001);
     			Thread.Sleep(200);
